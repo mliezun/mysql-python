@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
-project(mysql-python VERSION 1.0.1 DESCRIPTION "mysql-python execute python code from mysql")
+project(mysql-python VERSION 0.0.1 DESCRIPTION "mysql-python execute python code from mysql")
 include(GNUInstallDirs)
 add_library(mysql-python SHARED src/mysql-python.cpp)
 add_subdirectory(pybind11)
